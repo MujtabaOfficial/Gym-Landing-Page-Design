@@ -1,0 +1,35 @@
+https://ourcodeworld.com/articles/read/541/top-10-best-premium-gym-fitness-sports-and-bodybuilding-website-templates
+
+https://freehtml5.co/demos/stamina/blog.html#
+
+https://www.google.com.pk/search?q=gym+black+image+full+width&tbm=isch&tbs=rimg:CcW7ZcsvXYbJIjimC0COxtMyCLZbaD64qeefkKU4c9Ki4huFS5-fAFGcY7t8ZHINJsJAJGR312Du3cAVO410_1SZ8MyoSCaYLQI7G0zIIEVcwrZ1holQgKhIJtltoPrip558R2HgQ1Yx0J6sqEgmQpThz0qLiGxHmK2Ja12X8OCoSCYVLn58AUZxjEVBnpLi2dLJrKhIJu3xkcg0mwkARZuwGeVSZobMqEgkkZHfXYO7dwBEybTe672k6ECoSCRU7jXT9JnwzEc4nJgPsTcjI&tbo=u&sa=X&ved=2ahUKEwjtsr_u5v3cAhWGzqQKHYnRCIMQ9C96BAgBEBg&biw=1366&bih=662&dpr=1#imgdii=CZCMnCnyPjiTxM:&imgrc=lBF5khTS1nguKM:
+
+
+
+https://icons8.com/icon/set/bodybuilding/all
+
+
+
+  /*.top {
+     background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(fitness2.jpg);
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+   }
+    */
+
+
+
+ <!--
+  <div class="top">
+    
+  </div> 
+-->

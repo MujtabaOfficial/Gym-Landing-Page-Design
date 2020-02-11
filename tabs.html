@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #eee;
+}
+
+main {
+  width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+
+  color: #bbb;
+  border: 1px solid transparent;
+  
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+ 
+}
+
+input:checked + label {
+  color: #555;
+  border: 2px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7
+
+{
+  display: block;
+}
+   
+   @media (max-width: 768px){
+
+   	label{
+   		display: block;
+   		width: 30%;
+   		margin-right: auto;
+   		margin-left: auto;
+   		border-bottom:  1px solid #ddd;
+   	}
+   }
+
+	</style>
+</head>
+<body>
+
+
+<main>
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Sunday</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Monday</label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Tuesday</label>
+    
+  <input id="tab4" type="radio" name="tabs">
+  <label for="tab4">Wednesday</label>
+
+  <input id="tab5" type="radio" name="tabs">
+  <label for="tab5">Thursday</label>
+
+  <input id="tab6" type="radio" name="tabs">
+  <label for="tab6">Friday</label>
+    
+  <input id="tab7" type="radio" name="tabs">
+  <label for="tab7">Saturday</label>
+
+    
+  <section id="content1">
+    
+  </section>
+    
+  <section id="content2">
+      <!-- content area -->
+  </section>
+    
+  <section id="content3">
+     <!-- content area -->
+  </section>
+    
+  <section id="content4">
+  
+  </section>
+    
+  <section id="content5">
+      <!-- content area -->
+    
+  </section>
+    
+  <section id="content6">
+    <p style="padding-bottom: 5%;">
+     
+     </p>
+  </section>
+    
+  <section id="content7">
+     <p style="padding-bottom: 5%;">
+     
+     </p> 
+  </section>
+    
+</main>
+</body>
+</html>
